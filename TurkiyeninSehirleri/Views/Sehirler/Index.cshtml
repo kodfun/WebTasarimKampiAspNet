@@ -1,0 +1,21 @@
+﻿@model List<Sehir>
+
+<a asp-controller="Sehirler" asp-action="Yeni">Yeni Şehir</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Plaka No</th>
+            <th>Şehir Ad</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Sehir sehir in Model)
+        {
+            <tr>
+                <td>@sehir.Id</td>
+                <td>@sehir.Ad</td>
+            </tr>
+        }
+    </tbody>
+</table>
