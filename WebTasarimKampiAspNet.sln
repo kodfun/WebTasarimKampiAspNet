@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dosyalar", "Dosyalar", "{C3
 		Dosyalar\mvc.png = Dosyalar\mvc.png
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurkiyeninSehirleri", "TurkiyeninSehirleri\TurkiyeninSehirleri.csproj", "{A7F6479A-299C-4B2D-8227-2E5A2CEA2224}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{1D539D1E-5962-47C7-A677-54C7DC5E5E6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D539D1E-5962-47C7-A677-54C7DC5E5E6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D539D1E-5962-47C7-A677-54C7DC5E5E6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7F6479A-299C-4B2D-8227-2E5A2CEA2224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7F6479A-299C-4B2D-8227-2E5A2CEA2224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7F6479A-299C-4B2D-8227-2E5A2CEA2224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7F6479A-299C-4B2D-8227-2E5A2CEA2224}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
