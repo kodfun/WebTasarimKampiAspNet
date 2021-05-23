@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IlkWebsitem", "IlkWebsitem\IlkWebsitem.csproj", "{1D539D1E-5962-47C7-A677-54C7DC5E5E6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dosyalar", "Dosyalar", "{C3753FF8-413C-46EE-B43C-23F9D921B201}"
+	ProjectSection(SolutionItems) = preProject
+		Dosyalar\mvc.png = Dosyalar\mvc.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D539D1E-5962-47C7-A677-54C7DC5E5E6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D539D1E-5962-47C7-A677-54C7DC5E5E6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D539D1E-5962-47C7-A677-54C7DC5E5E6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D539D1E-5962-47C7-A677-54C7DC5E5E6E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E1D3C77-EAAF-4677-984C-AF65F6987705}
+	EndGlobalSection
+EndGlobal
