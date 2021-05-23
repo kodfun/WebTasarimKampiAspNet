@@ -3,6 +3,13 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Hoşgeldiniz</h1>
+    <p>
+        @*<a href="/Ankara/GezilecekYerler">Ankara'da Gezilecek Yerler</a>*@
+        <a asp-controller="Ankara" asp-action="Nufus">Ankara'nın Nüfusu</a> |
+        <a asp-controller="Ankara" asp-action="Ilceler">Ankara'nın İlçeleri</a> |
+        <a asp-controller="Ankara" asp-action="GezilecekYerler">Ankara'da Gezilecek Yerler</a> |
+        <a asp-controller="Ankara" asp-action="GezilecekYerlerJson">Ankara'da Gezilecek Yerler (JSON)</a> |
+        <a asp-controller="Ankara" asp-action="Goller">Ankara'nın Gölleri</a> |
+    </p>
 </div>
