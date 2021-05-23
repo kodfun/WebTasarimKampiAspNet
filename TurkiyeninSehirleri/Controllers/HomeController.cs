@@ -12,5 +12,11 @@ namespace TurkiyeninSehirleri.Controllers
         {
             return View();
         }
+
+        // Home/Hakkinda
+        public IActionResult Hakkinda()
+        {
+            return View();
+        }
     }
 }
