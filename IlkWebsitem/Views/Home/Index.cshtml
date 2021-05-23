@@ -11,5 +11,12 @@
         <a asp-controller="Ankara" asp-action="GezilecekYerler">Ankara'da Gezilecek Yerler</a> |
         <a asp-controller="Ankara" asp-action="GezilecekYerlerJson">Ankara'da Gezilecek Yerler (JSON)</a> |
         <a asp-controller="Ankara" asp-action="Goller">Ankara'nın Gölleri</a> |
+
+        @* /[controller]/[action]/[id] *@
+        @* /Sehirler/Bilgi/6 *@
+        <a asp-controller="Sehirler" asp-action="Bilgi" asp-route-id="6">Ankara Hakkında Bilgi</a>
+
+        <hr />
+        <a asp-controller="Matematik" asp-action="Index">Matematik</a>
     </p>
 </div>

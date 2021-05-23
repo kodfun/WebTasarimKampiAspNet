@@ -1,0 +1,13 @@
+﻿
+
+<form method="get">
+    <label for="sayi1">Sayı 1:</label>
+    <input type="number" name="sayi1" id="sayi1" value="@ViewBag.Sayi1" />
+    <label for="sayi2">Sayı 2:</label>
+    <input type="number" name="sayi2" id="sayi2" value="@ViewData["Sayi2"]" />
+    <button>Topla</button>
+</form>
+
+<h3>
+    @ViewData["Sayi1"] + @ViewData["Sayi2"] = @ViewData["Toplam"]
+</h3>
