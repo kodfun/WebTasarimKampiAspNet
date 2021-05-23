@@ -3,3 +3,13 @@
 <p>
     Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.
 </p>
+
+
+@* aşağıdaki scripts bölümünde yazdığım kodlar, layoutta  @RenderSection("scripts", false)yazdığım yerde görünsün *@
+@section scripts {
+    <script>
+        $("h1").click(function () {
+            alert("Merhaba!");
+        });
+    </script>
+}

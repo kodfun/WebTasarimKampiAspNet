@@ -2,18 +2,25 @@
 <head>
     <title>Anasayfa</title>
     <meta charset="utf-8" />
+    <link href="~/lib/twitter-bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 </head>
 <body>
-    <a asp-controller="Home" asp-action="Index">Anasayfa</a> |
-    <a asp-controller="Home" asp-action="Hakkinda">Hakkında</a>
-    <hr />
+    <div class="container">
+        <a asp-controller="Home" asp-action="Index">Anasayfa</a> |
+        <a asp-controller="Home" asp-action="Hakkinda">Hakkında</a>
+        <hr />
 
-    @* View'lerin içerikleri burada gözükecek *@
-    @RenderBody()
+        @* View'lerin içerikleri burada gözükecek *@
+        @RenderBody()
 
-    <hr />
-    <div>
-        Her hakkı saklıdır &copy; @DateTime.Now.Year
+        <hr />
+        <div class="text-center">
+            Her hakkı saklıdır &copy; @DateTime.Now.Year
+        </div>
     </div>
+
+    <script src="~/lib/jquery/jquery.min.js"></script>
+    <script src="~/lib/twitter-bootstrap/js/bootstrap.bundle.min.js"></script>
+    @RenderSection("scripts", false)
 </body>
 </html>
